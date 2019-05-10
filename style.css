@@ -1,0 +1,20 @@
+fieldset{
+width: 400px;
+background-color: aqua;
+}
+fieldset legend{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+input[type=text] {
+background-color: aquamarine;
+color: darkcyan;
+}
+textarea{
+    background-color: aquamarine;
+}
+select{
+    background-color: cyan;
+    color: cadetblue;
+}

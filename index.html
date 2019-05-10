@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>FORMLARA ÖZELLİK KAZANDIRMA</title>
+</head>
+<body>
+    <form action="" method="">
+     <fieldset>
+         <legend> Kişisel Bilgiler</legend>
+         <p> 
+             <label for="isim">İsim </label> <input type="text" name="isim" id="isim"><br>
+        
+         </p>
+         <p>
+                <label for="soyisim"> Soyisim </label> <input type="text" name="soyisim" id="soyisim"><br>
+         </p>
+         <p>
+                <label for="email"> Email </label> <input type="text" name=email id="email"><br>
+         </p>
+         <P> 
+             <label for="adres"> Adresiniz</label>  <br> <br>
+
+             <textarea name="adresiniz"   placeholder="adresiniz" cols="40" rows="5"></textarea><br>
+         </P>
+         <p>
+             <label for="sehir"> Nerede yaşıyorsunuz ?</label><br>
+             <select name="sehir" id="sehir">
+                <option value="istanbul" selected > İstanbul</option>
+                <option value=" ankara"> Ankara </option>
+                <option value=" izmir"> İzmir </option>
+                </select>
+                <p>
+                    Bildirim Almak İstiyor musunuz ? <br>
+                    <label for="evet">Evet</label> <input type="radio" name="evet" id="evet">
+                    <label for="hayır">Hayır</label> <input type="radio" name="evet" id="hayır">
+                </p>    
+         </p>
+     </fieldset>
+     <br> 
+     <fieldset>
+              <legend> Hobilerinizi Seçiniz</legend>
+            <label for="basketbol"> Basketbol oynamak </label> <input type="checkbox" name="hobiler" value="basketbol" id="basketbol"> <br>
+            <label for="tenis">tenis oynamak </label> <input type="checkbox" name=" hobiler" value="tenis" id="tenis"> <br>
+           <label for="pes"> pes oynamak </label> <input type="checkbox" name="hobiler" value="pes" id="pes"><br>
+           <label for="kitap"> kitap okumak </label> <input type="checkbox" name="hobiler" value="kitap" id="kitap"><br>
+           <label for="sanat"> sanat gezileri </label> <input type="checkbox" name="hobiler" value="sanat" id="sanat"><br>
+
+     </fieldset>
+    </form> 
+</body>
+</html>
